@@ -1,0 +1,44 @@
+{
+ "proj-name": {
+  "root": "./makerchip",
+  "thumb": "./thumb.gif",
+  "thumbs": {
+   "foo": "./diagram.svg"
+  },
+  "preview": "./preview.gif",
+  "previews": "",
+  "desc": "<p>my proj<p>",
+  "details": "<p>detailed content</p>",
+  "docs": "./README.md",
+  "tags": [
+   "fpga",
+   "library"
+  ],
+  "comment": "Anything",
+  "srcdir": ".",
+  "src": "./top.tlv",
+  "srcs": {
+   "impl": "./src/impl_top.tlv",
+   "4-stage": "./src/4-stage.tlv"
+  },
+  "char-stats": {
+   "src": {
+    "combined": 420
+   },
+   "tlv": {
+    "untouched": 54
+   },
+   "sv": {
+    "untouched": 54
+   }
+  },
+  "implementations": {
+   "Lattice XYZ performance optimized": {
+    "vendor": "Lattice",
+    "board": "iCE40-HX8K",
+    "docs": "./README.md"
+   }
+  }
+ },
+ "alt-top": {}
+}
